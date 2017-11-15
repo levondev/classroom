@@ -42,6 +42,8 @@ let Task = {
                         }
                         else {
                             console.log('created');
+                            console.log(data);
+                            console.log("*************************");
                             res.status(200).send(data);
                         }
                     });
